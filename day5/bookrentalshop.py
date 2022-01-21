@@ -94,14 +94,14 @@ if __name__ == '__main__':
     # 3. membertbl에서 데이터 조회
     # getSomeDataFromMembertbl(scott_conn)
     # 4. membertbl에 새 데이터 입력
-    # print('신규 회원 입력')
-    # names = input('이름 입력: ')
-    # levels = input('레벨 입력(A~D): ')
-    # userid = input('아이디 입력(최대 20자): ')
-    # password = input('패스워드 입력(최대 20자): ')
-    # tup = (names, levels, userid, password)
-    # setNewMemberIntoMembertbl(scott_conn, tup)
-    # print('신규회원 저장성공')
+    print('신규 회원 입력')
+    names = input('이름 입력: ')
+    levels = input('레벨 입력(A~D): ')
+    userid = input('아이디 입력(최대 20자): ')
+    password = input('패스워드 입력(최대 20자): ')
+    tup = (names, levels, userid, password)
+    setNewMemberIntoMembertbl(scott_conn, tup)
+    print('신규회원 저장성공')
     # 5. membertbl 새 데이터 수정
     # print('기존 회원 수정')
     # idx = input('변경회원번호: ')
@@ -111,9 +111,9 @@ if __name__ == '__main__':
     # tup = (addr, mobile, email, idx)
     # setChangeMemberFromMembertbl(scott_conn, tup)
     # print('기존 회원 수정완료')
-    # 6. divtbl에 임의 데이터 삭제
-    print('책 장르정보 삭제')
-    division = input('삭제할 장르코드 입력: ')
-    deleteDivision(scott_conn, division)
-    print('삭제 성공')
+    # # 6. divtbl에 임의 데이터 삭제
+    # print('책 장르정보 삭제')
+    # division = input('삭제할 장르코드 입력: ')
+    # deleteDivision(scott_conn, division)
+    # print('삭제 성공')
 

@@ -50,3 +50,11 @@
     - 멤버변수, 멤버함수
     - 클래스 사용
     - 매직메서드(__init__, __str__, etc...)
+
+### 7일차
+- 행렬
+    - numpy, matplotlib, PILLOw
+    - 행렬 연산
+- 폴더 다루기
+    - os, glob, shutil
+-  
